@@ -1,10 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
+
 using namespace std;
 
-int main(){
-  int a, b;
-  cin >> a >> b;
-  cout << a + b;
+int main()
+{
+    int p;
+    cin>>p;
+    cout<< "here is the table for the no. "<<p<<endl;
+
+    for(int x=1; x<=10; x++){
+        cout<< p << "*" <<x<< " = "<<p*x<<endl;
+    }
 }
